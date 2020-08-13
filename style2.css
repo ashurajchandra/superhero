@@ -1,3 +1,10 @@
 body {
-    background: linear-gradient(to right, #304352, #d7d2cc);
+    background-color: rgb(255, 20, 147);
+}
+#fav-head {
+    color: white;
+    background-color: black;
+}
+#fav-head:hover {
+    color: orangered;
 }

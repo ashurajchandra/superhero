@@ -1,8 +1,14 @@
 body {
-    background: linear-gradient(to right, #304352, #d7d2cc);
+    background: linear-gradient(to right, blue, cyan);
 }
 #main-head {
+    color: white;
+    background-color: black;
+    background-size: cover;
     margin-left: 20%;
+}
+#main-head:hover {
+    color: orangered;
 }
 
 #search-bar {
@@ -10,16 +16,20 @@ body {
 }
 
 #fav-link {
+    background-color: red;
     text-decoration: none;
     color: whitesmoke;
     border-bottom: 1px solid;
     margin-left: 6%;
 }
+#fav-link:hover {
+    color: grey;
+}
 
 #hero-list {
     list-style: none;
     padding: 10px;
-    border: 1px solid;
+    border: 5px solid;
     height: auto;
     width: 80%;
     margin-left: 10%;
@@ -27,10 +37,15 @@ body {
 }
 
 #note {
+    background-color: black;
+    color: white;
     display: inline-block;
     margin-top: 4%;
     position: absolute;
     margin-left: -68%;
+}
+#note:hover {
+    color: orangered;
 }
 
 .hero-link {
